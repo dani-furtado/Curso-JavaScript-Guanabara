@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+
+        <style>
+            body {
+                background-color: rgb(129, 129, 208);
+                color: white;
+                font: normal 20pt Arial;
+            }
+
+            h1 {
+                color: rgb(112, 181, 112);
+            }
+        </style>
+
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+      /*
+      var n1 = Number.parseInt(window.prompt("Digite um número")) //parseInt vai transformar o numero em number (sem vira string), parseFloat numero real e Number qualquer número
+      var n2 = Number.parseInt(window.prompt("Digite outro numero"))
+      var s = n1 + n2 //number + number soma, string + string concatenação
+      window.alert("A somatório dos valores é " + s)
+    
+       var nome = window.prompt("Qual seu primeiro nome?")
+       var sobrenome = window.prompt('Qual seu sobrenome?')
+       var completo = nome + sobrenome
+       window.alert("Seu nome completo é " + completo)
+    */
+    
+        var n1 = Number(window.prompt("Digite um número")) 
+       var n2 = Number(window.prompt("Digite outro numero"))
+      var s = n1 + n2 
+      window.alert(`A somatório dos valores ${n1} e ${n2} é igual a ${s}`)
+    
+       var nome = window.prompt("Qual seu primeiro nome?")
+       var sobrenome = window.prompt('Qual seu sobrenome?')
+       var completo = nome + sobrenome
+       window.alert("Seu nome completo é " + completo)
+    </script>
+</body>
+</html>
