@@ -1,2 +1,2 @@
 # Curso JavaScript Guanabara
- Exercícios das aulas
+ Exercícios realizados nas aulas do curso. 
